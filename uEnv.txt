@@ -1,0 +1,17 @@
+#Docs: http://elinux.org/Beagleboard:U-boot_partitioning_layout_2.0
+
+uname_r=3.8.13-bone68
+
+#dtb=
+
+cmdline=quiet 
+
+##Example
+#cape_disable=capemgr.disable_partno=
+#cape_enable=capemgr.enable_partno=
+optargs=capemgr.enable_partno=am33xx_pwm,bone_pwm_P9_16,bone_pwm_P9_22,bone_pwm_P9_21,bone_pwm_P8_19,bone_pwm_P8_13,bone_pwm_P9_14
+
+##enable BBB: eMMC Flasher:
+#cmdline=init=/opt/scripts/tools/eMMC/init-eMMC-flasher-v3.sh
+
+uuid=8f9fe2c9-6768-41a9-a80d-3df125c730c3
