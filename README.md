@@ -3,6 +3,7 @@ Random control PWM leds on beaglebone
 Using board http://elinux.org/Boneleds
 
 Installed ubuntu on emmc.
+
 Needed changes:
 1. uEnv.txt - included in repository
 
