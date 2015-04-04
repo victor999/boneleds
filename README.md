@@ -10,4 +10,5 @@ Needed changes:
 2. Compile ledControl.c
 
 3. sudo crontab -e
+
 Add a line @reboot /home/ubuntu/ledControl&
