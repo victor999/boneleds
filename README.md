@@ -5,7 +5,8 @@ Using board http://elinux.org/Boneleds
 Installed ubuntu on emmc.
 
 Needed changes:
-1. uEnv.txt - included in repository
+
+1. uEnv.txt - enable PWM (included in repository)
 
 2. Compile ledControl.c
 
