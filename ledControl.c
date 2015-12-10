@@ -18,11 +18,11 @@ int main(int argc, char **argv)
 		i += increment;
 		if(increment >= 500000)
 		{
-			increment = increment * -1;
+			increment = increment * (-1);
 		}
 		if(increment <= 0)
 		{
-			increment = increment;
+			increment = increment * (-1);
 		}
 	}
 	return 0;
